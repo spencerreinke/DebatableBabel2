@@ -1,3 +1,62 @@
-<h1>Dope Content Goes:</h1>
-<p>Here</p>
-<p><%= link_to "About", about_path %></p>
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,100' rel='stylesheet' type='text/css'>
+
+	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,100italic,100' rel='stylesheet' type='text/css'> -->
+
+	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+
+	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+	<%= csrf_meta_tags %>
+
+	<title>Debatable</title>
+
+</head>
+<body>
+
+<!-- sets the spacing of the whole page !-->
+<div id="wholePageWrapper">
+	<!-- sets the spacing & background of the full page splash !-->
+	<div id="splashWrapper">
+		<!-- full page splash content container !-->
+		<div id="splash">
+			<div id="splashTitle">
+				<h1>welcome</h1>
+				<h2>to the future of debate</h2>
+			</div>
+			<div id="splashButtons">
+				<div class="button" id="LDButton">
+					<p>L D</p>
+				</div>
+				<div class="button" id="PFButton">
+					<p>PF</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- sets the spacing of the LD content !-->
+	<div id="LDContentWrapper">
+		<!-- LD content container !-->
+		<div id="LDContent">
+
+		</div>
+	</div>
+	<!-- sets the spacing of the PF content !-->
+	<div id="PFContentWrapper">
+	<!-- PF content container !-->
+		<div id="PFContent">
+
+		</div>
+	</div>
+	<!-- sets the spacing of the footer !-->
+	<div id="footerWrapper">
+		<!-- footer content container !-->
+		<div id="footer">
+
+		</div>
+
+	</div>
+</div>
+</body>
